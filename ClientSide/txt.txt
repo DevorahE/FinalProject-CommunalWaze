@@ -1,1 +1,2 @@
-Test
+The client side is in React.
+In this platform only the src has been added.
