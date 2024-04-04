@@ -1,1 +1,2 @@
 The server side is in C#.
+The server side is in a other repository: FinalProject-CommunalWaze-ServerSide.
