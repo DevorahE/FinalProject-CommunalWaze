@@ -49,7 +49,6 @@ MyFormControlLabel.propTypes = {
   value: PropTypes.any,
 };
 
-const MY_KEY = 'AIzaSyBzUC69LvNgyA1vnxrxw4qiOobDcaWS-J0'
 export const Report = () => {
   let today = dayjs()
   const [categories, setCategories] = React.useState([])
@@ -126,7 +125,7 @@ export const Report = () => {
       setNewReport(newReport => ({ ...newReport, formattedAddress: address, lat: lat, lng: lng }))
 
     },
-    //מראה של התיבת טקסט
+
     options: {
       types: ['address'],
       fields: ['formatted_address', 'geometry.location'],
